@@ -1,30 +1,33 @@
-const config = {
-  "env": {
-    "browser": true,
-    "node": true
+import { ESLintConfig } from "types-eslintrc";
+
+const config: ESLintConfig = {
+  env: {
+    browser: true,
+    node: true
   },
-  "extends": [
+  extends: [
     "eslint:recommended",
     "plugin:@typescript-eslint/eslint-recommended",
     "plugin:@typescript-eslint/recommended",
     "plugin:react/recommended"
   ],
-  "ignorePatterns": [
+  ignorePatterns: [
     "node_modules",
     "/build",
     "/test",
     "**/*.d.ts"
   ],
-  "parser": "@typescript-eslint/parser",
-  "parserOptions": {
-    "ecmaVersion": 2020,
-    "sourceType": "module"
+  parser: "@typescript-eslint/parser",
+  parserOptions: {
+    ecmaVersion: 2021,
+    sourceType: "module"
   },
-  "plugins": [
+  plugins: [
     "@typescript-eslint",
     "react-hooks"
   ],
   reportUnusedDisableDirectives: true,
+  rules: {
     "@typescript-eslint/camelcase": "off",
     "@typescript-eslint/explicit-function-return-type": "off",
     "@typescript-eslint/explicit-module-boundary-types": "off",
@@ -252,9 +255,9 @@ const config = {
     "template-curly-spacing": "error",
     "yield-star-spacing": "error"
   }, 
-  "settings": {
-    "react": {
-      "version": "detect"
+  settings: {
+    react: {
+      version: "detect"
     }
   }
 }
