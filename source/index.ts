@@ -154,7 +154,22 @@ const config: ESLintConfig = {
     "indent": ["error", 2],
     "jsx-quotes": "error",
     "key-spacing": "error",
-    "keyword-spacing": ["error", { "overrides": { "if": { "after": false } } }],
+    "keyword-spacing": [
+      "error",
+      {
+        "overrides": {
+          "if": {
+            "after": false
+          },
+          "for": {
+            "after": false
+          },
+          "while": {
+            "after": false
+          }
+        }
+      }
+    ],
     "line-comment-position": "off",
     "linebreak-style": "error",
     "lines-around-comment": "off",
