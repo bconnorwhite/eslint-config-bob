@@ -13,7 +13,13 @@
     "type": "git",
     "url": "git+https://github.com/bconnorwhite/eslint-config-bob.git"
   },
-  "keywords": [],
+  "keywords": [
+    "eslint",
+    "config",
+    "bconnorwhite",
+    "bob",
+    "@bconnorwhite/bob"
+  ],
   "files": [
     "build"
   ],
