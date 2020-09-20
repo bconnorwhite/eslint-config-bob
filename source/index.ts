@@ -145,7 +145,7 @@ const config: ESLintConfig = {
     "func-name-matching": "error",
     "func-names": "error",
     "func-style": ["warn", "declaration", { "allowArrowFunctions": true }],
-    "function-call-argument-newline": ["warn", "consistent"], 
+    "function-call-argument-newline": ["warn", "consistent"],
     "function-paren-newline": ["error", "multiline-arguments"],
     "id-blacklist": "error",
     "id-length": "off",
@@ -269,7 +269,7 @@ const config: ESLintConfig = {
     "symbol-description": "error",
     "template-curly-spacing": "error",
     "yield-star-spacing": "error"
-  }, 
+  },
   settings: {
     react: {
       version: "detect"
