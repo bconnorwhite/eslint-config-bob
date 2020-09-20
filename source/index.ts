@@ -193,7 +193,7 @@ const config: ESLintConfig = {
     "no-whitespace-before-property": "error",
     "nonblock-statement-body-position": "error",
     "object-curly-newline": "error",
-    "object-curly-spacing": ["warn", "always", { "arraysInObjects": false }],
+    "object-curly-spacing": ["warn", "always"],
     "object-property-newline": "off",
     "one-var": ["warn", "never"],
     "one-var-declaration-per-line": "error",
