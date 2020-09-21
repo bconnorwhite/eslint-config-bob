@@ -219,7 +219,7 @@ const config: ESLintConfig = {
     "prefer-exponentiation-operator": "error",
     "prefer-object-spread": "error",
     "quote-props": ["warn", "consistent"],
-    "quotes": ["warn", "double"],
+    "quotes": ["warn", "double", { "avoidEscape": true }],
     "semi": "off",
     "semi-spacing": "error",
     "semi-style": "error",
