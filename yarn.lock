@@ -974,10 +974,10 @@
   resolved "https://registry.yarnpkg.com/@bcoe/v8-coverage/-/v8-coverage-0.2.3.tgz#75a2e8b51cb758a7553d6804a5932d7aace75c39"
   integrity sha512-0hYQ8SB4Db5zvZB4axdMHGwEaQjkZzFjQiN9LVYvIFB2nSUHW9tYpxWriPrWDASIxiaXax83REcLxuSdnGPZtw==
 
-"@bconnorwhite/bob@^2.4.0":
-  version "2.4.0"
-  resolved "https://registry.yarnpkg.com/@bconnorwhite/bob/-/bob-2.4.0.tgz#231a8da9388ca37a435d70ebda1341cbeee85374"
-  integrity sha512-7yecuC7WI2N6qZlVFkFy31Kp0BxK3BsYRNhEHbtWknTZeE3kziGPKHot/l6SN0+IsQrvm5IT9YcsreXQ2nUDLA==
+"@bconnorwhite/bob@^2.4.2":
+  version "2.4.2"
+  resolved "https://registry.yarnpkg.com/@bconnorwhite/bob/-/bob-2.4.2.tgz#02fcebcd28da730c1e17c9df6b52dff7461c38e8"
+  integrity sha512-8Fm1R2K7HEWaUH6Wdg2f0BugT7C4czyHP940e6Rw5beTJhvlsOdxD0XSqJauNTjB1gj0gENt6zmiyLDcUPyBIg==
   dependencies:
     "@babel/cli" "^7.11.6"
     "@babel/core" "^7.11.6"
@@ -994,7 +994,7 @@
     cz-conventional-changelog "^3.3.0"
     dotenv "^8.2.0"
     eslint "^7.9.0"
-    eslint-config-bob "^1.0.2"
+    eslint-config-bob "^1.0.3"
     find "^0.3.0"
     inquirer "^7.3.3"
     is-git-repository "^2.0.0"
@@ -3036,7 +3036,7 @@ escodegen@^1.14.1:
   optionalDependencies:
     source-map "~0.6.1"
 
-eslint-config-bob@^1.0.2:
+eslint-config-bob@^1.0.3:
   version "1.0.3"
   resolved "https://registry.yarnpkg.com/eslint-config-bob/-/eslint-config-bob-1.0.3.tgz#789aa2e18b964453306eaee224091a4602705aaf"
   integrity sha512-fqis/VVMf/UTwjSLgtC6N8rwY1CMxomuqbV2WYct3mG/zEYg502Do23KiZDSUXfEdTD2CWgZCad5YE3+5mx/KQ==
