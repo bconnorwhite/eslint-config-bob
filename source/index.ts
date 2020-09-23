@@ -176,7 +176,7 @@ const config: ESLintConfig = {
     "lines-between-class-members": ["warn", "never"],
     "max-depth": "error",
     "max-len": ["warn", { "code": 180 }],
-    "max-lines": ["warn", 300],
+    "max-lines": ["warn", 200],
     "max-lines-per-function": "off",
     "max-nested-callbacks": "error",
     "max-params": ["warn", 4],
