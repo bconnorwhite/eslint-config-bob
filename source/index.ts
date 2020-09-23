@@ -39,7 +39,7 @@ const config: ESLintConfig = {
     "@typescript-eslint/no-use-before-define": ["error", { "functions": false }],
     "react/prop-types": "off",
     "no-await-in-loop": "warn",
-    "no-console": ["error", { "allow": ["warn", "error", "info"]}],
+    "no-console": ["error", { "allow": ["warn", "error", "info"] }],
     "no-extra-parens": "off",
     "no-template-curly-in-string": "off",
     "require-atomic-updates": "error",
