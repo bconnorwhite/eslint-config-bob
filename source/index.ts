@@ -218,7 +218,7 @@ const config: ESLintConfig = {
     "padding-line-between-statements": "error",
     "prefer-exponentiation-operator": "error",
     "prefer-object-spread": "error",
-    "quote-props": ["warn", "consistent"],
+    "quote-props": ["warn", "consistent-as-needed"],
     "quotes": ["warn", "double", { "avoidEscape": true }],
     "semi": "off",
     "semi-spacing": "error",
