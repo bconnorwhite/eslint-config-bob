@@ -215,7 +215,7 @@ const config: ESLintConfig = {
     "one-var": ["warn", "never"],
     "one-var-declaration-per-line": "error",
     "operator-assignment": "error",
-    "operator-linebreak": ["error", "before"],
+    "operator-linebreak": ["error", "after"],
     "padded-blocks": ["warn", "never"],
     "padding-line-between-statements": "error",
     "prefer-exponentiation-operator": "error",
