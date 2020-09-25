@@ -118,7 +118,7 @@ const config: ESLintConfig = {
     "no-shadow": "warn",
     "no-undef-init": "error",
     "no-undefined": "off",
-    "no-use-before-define": "error",
+    "no-use-before-define": "off",
     "callback-return": "error",
     "global-require": "error",
     "handle-callback-err": "error",
