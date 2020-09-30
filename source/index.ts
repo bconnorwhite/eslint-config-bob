@@ -15,7 +15,6 @@ const config: ESLintConfig = {
   ignorePatterns: [
     "node_modules",
     "/build",
-    "/test",
     "**/*.d.ts"
   ],
   parser: "@typescript-eslint/parser",
