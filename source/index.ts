@@ -204,7 +204,11 @@ const config: ESLintConfig = {
     "no-restricted-syntax": "error",
     "no-tabs": "error",
     "no-ternary": "off",
-    "no-trailing-spaces": "warn",
+    "no-trailing-spaces": [
+      "warn", {
+        "ignoreComments": true // Set to `true` to support two trailing spaces to wrap TypeScript comments.
+      }
+    ],
     "no-underscore-dangle": "warn",
     "no-unneeded-ternary": "error",
     "no-whitespace-before-property": "error",
