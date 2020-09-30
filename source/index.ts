@@ -13,8 +13,9 @@ const config: ESLintConfig = {
     "plugin:react/recommended"
   ],
   ignorePatterns: [
-    "node_modules",
     "/build",
+    "/coverage",
+    "node_modules",
     "**/*.d.ts"
   ],
   parser: "@typescript-eslint/parser",
