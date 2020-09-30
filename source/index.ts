@@ -180,7 +180,7 @@ const config: ESLintConfig = {
     "max-len": ["warn", { "code": 180 }],
     "max-lines": ["warn", 200],
     "max-lines-per-function": "off",
-    "max-nested-callbacks": "error",
+    "max-nested-callbacks": "warn",
     "max-params": ["warn", 4],
     "max-statements": "off",
     "max-statements-per-line": "error",
