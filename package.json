@@ -26,9 +26,9 @@
   "main": "./build/index.js",
   "scripts": {
     "build": "bob build",
+    "commit": "bob commit",
     "lint": "bob lint",
-    "postversion": "git push --follow-tags",
-    "prepublishOnly": "yarn run build"
+    "release": "bob publish",
   },
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "^4.1.1",
@@ -41,10 +41,15 @@
     "eslint": "^7.9.0"
   },
   "devDependencies": {
-    "@bconnorwhite/bob": "^2.4.2"
+    "@bconnorwhite/bob": "^2.9.0"
   },
   "eslintConfig": {
     "extends": "eslint-config-bob"
+  },
+  "husky": {
+    "hooks": {
+      "commit-msg": "bob lint commit"
+    }
   },
   "npmpackagejsonlint": {
     "extends": "npm-package-json-lint-config-bob"
