@@ -18,6 +18,12 @@ const config: ESLintConfig = {
     "node_modules",
     "**/*.d.ts"
   ],
+  overrides: [{
+    files: ["*.js", "*.jsx"],
+    rules: {
+      "@typescript-eslint/no-var-requires": "off"
+    }
+  }],
   parser: "@typescript-eslint/parser",
   parserOptions: {
     ecmaVersion: 2021,
