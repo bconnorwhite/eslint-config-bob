@@ -88,7 +88,7 @@ const rules: ESLintRules = {
   "no-use-before-define": "off",
   "callback-return": "error",
   "global-require": "error",
-  "handle-callback-err": "error",
+  "handle-callback-err": "off",
   "no-buffer-constructor": "error",
   "no-mixed-requires": "error",
   "no-new-require": "error",
