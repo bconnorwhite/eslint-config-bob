@@ -16,6 +16,9 @@
   "keywords": [
     "eslint",
     "config",
+    "lint",
+    "eslintconfig",
+    "styleguide",
     "typescript",
     "ts",
     "react",
