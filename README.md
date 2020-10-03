@@ -1,4 +1,5 @@
 <div align="center">
+  <img src="assets/eslint-logo.svg" height="80" width="80" />
   <h1>eslint-config-bob</h1>
   <a href="https://npmjs.com/package/eslint-config-bob">
     <img alt="npm" src="https://img.shields.io/npm/v/eslint-config-bob.svg">
