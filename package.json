@@ -32,6 +32,7 @@
     "commit": "bob commit",
     "lint": "bob lint",
     "release": "bob publish",
+    "test": "bob test"
   },
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "^4.1.1",
