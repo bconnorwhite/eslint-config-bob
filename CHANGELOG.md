@@ -1,3 +1,20 @@
+# [1.3.0](https://github.com/bconnorwhite/eslint-config-bob/compare/v1.2.1...v1.3.0) (2020-10-03)
+
+
+### Bug Fixes
+
+* remove no-var-requires for js files ([2bb4e29](https://github.com/bconnorwhite/eslint-config-bob/commit/2bb4e29cd3fdb9eb979a862f9c5f4a8ca7553bbc))
+* turn off handle-callback-err ([238b8e4](https://github.com/bconnorwhite/eslint-config-bob/commit/238b8e40425741eacf5b4af91fa2db7966c18662))
+
+
+### Features
+
+* added support for JSON files ([01b731e](https://github.com/bconnorwhite/eslint-config-bob/commit/01b731ebd0ab73150afe0507d306f1f6f2322441))
+* include .d.ts files ([bdb0909](https://github.com/bconnorwhite/eslint-config-bob/commit/bdb090906fa43db13cac0b993e6df49b11e07b6e))
+* no space after throw keyword ([174c971](https://github.com/bconnorwhite/eslint-config-bob/commit/174c971acf00de8146f09b5f12aa0e9d3d0cf7aa))
+
+
+
 ## [1.2.1](https://github.com/bconnorwhite/eslint-config-bob/compare/v1.2.0...v1.2.1) (2020-10-03)
 
 
