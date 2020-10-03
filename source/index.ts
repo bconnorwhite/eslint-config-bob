@@ -9,8 +9,7 @@ const config: ESLintConfig = {
   ignorePatterns: [
     "/build",
     "/coverage",
-    "node_modules",
-    "**/*.d.ts"
+    "node_modules"
   ],
   overrides: [{
     files: ["*.ts", "*.tsx", "*.js", "*.jsx"],
