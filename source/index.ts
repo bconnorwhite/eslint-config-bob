@@ -1,17 +1,11 @@
 import { ESLintConfig } from "types-eslintrc";
-import rules from "./rules";
+import rules, { typescriptRules, reactRules } from "./rules";
 
 const config: ESLintConfig = {
   env: {
     browser: true,
     node: true
   },
-  extends: [
-    "eslint:recommended",
-    "plugin:@typescript-eslint/eslint-recommended",
-    "plugin:@typescript-eslint/recommended",
-    "plugin:react/recommended"
-  ],
   ignorePatterns: [
     "/build",
     "/coverage",
@@ -19,27 +13,47 @@ const config: ESLintConfig = {
     "**/*.d.ts"
   ],
   overrides: [{
-    files: ["*.js", "*.jsx"],
-    rules: {
-      "@typescript-eslint/no-var-requires": "off"
+    files: ["*.ts", "*.tsx", "*.js", "*.jsx"],
+    extends: [
+      "eslint:recommended"
+    ],
+    rules
+  }, {
+    files: ["*.ts", "*.tsx"],
+    extends: [
+      "plugin:@typescript-eslint/eslint-recommended",
+      "plugin:@typescript-eslint/recommended"
+    ],
+    plugins: [
+      "@typescript-eslint"
+    ],
+    rules: typescriptRules
+  }, {
+    files: ["*.tsx", "*.jsx"],
+    extends: [
+      "plugin:react/recommended"
+    ],
+    plugins: [
+      "react-hooks"
+    ],
+    rules: reactRules,
+    settings: {
+      react: {
+        version: "detect"
+      }
     }
+  }, {
+    files: ["*.json"],
+    extends: [
+      "plugin:json/recommended"
+    ]
   }],
   parser: "@typescript-eslint/parser",
   parserOptions: {
     ecmaVersion: 2021,
     sourceType: "module"
   },
-  plugins: [
-    "@typescript-eslint",
-    "react-hooks"
-  ],
-  reportUnusedDisableDirectives: true,
-  rules,
-  settings: {
-    react: {
-      version: "detect"
-    }
-  }
+  reportUnusedDisableDirectives: true
 }
 
 export = {

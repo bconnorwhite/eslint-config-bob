@@ -3,9 +3,12 @@ import { ESLintRules } from "types-eslintrc";
 import typescriptRules from "./typescript";
 import reactRules from "./react";
 
+export {
+  typescriptRules,
+  reactRules
+}
+
 const rules: ESLintRules = {
-  ...typescriptRules,
-  ...reactRules,
   "no-await-in-loop": "warn",
   "no-console": ["error", { allow: ["warn", "error", "info"] }],
   "no-extra-parens": "off",

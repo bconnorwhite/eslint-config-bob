@@ -22,6 +22,8 @@
 
 > ESLint configuration for packages built with @bconnorwhite/bob.
 
+Reasonable linting rules for TypeScript, React, and JSON.
+
 ## Installation
 
 ```bash
@@ -48,8 +50,10 @@ In .eslintrc.json:
 
 - [@typescript-eslint/eslint-plugin](https://www.npmjs.com/package/@typescript-eslint/eslint-plugin): TypeScript plugin for ESLint
 - [@typescript-eslint/parser](https://www.npmjs.com/package/@typescript-eslint/parser): An ESLint custom parser which leverages TypeScript ESTree
+- [eslint-plugin-json](https://www.npmjs.com/package/eslint-plugin-json): Eslint plugin for JSON files
 - [eslint-plugin-react](https://www.npmjs.com/package/eslint-plugin-react): React specific linting rules for ESLint
 - [eslint-plugin-react-hooks](https://www.npmjs.com/package/eslint-plugin-react-hooks): ESLint rules for React Hooks
+- [types-eslintrc](https://www.npmjs.com/package/types-eslintrc): Type checking for .eslintrc.json
 
 <br />
 
