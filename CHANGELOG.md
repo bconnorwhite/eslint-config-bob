@@ -1,3 +1,12 @@
+## [1.2.1](https://github.com/bconnorwhite/eslint-config-bob/compare/v1.2.0...v1.2.1) (2020-10-03)
+
+
+### Bug Fixes
+
+* adjust keyword-spacing for catch ([e770fc9](https://github.com/bconnorwhite/eslint-config-bob/commit/e770fc92cb0751eaa1ef749e2730ab1a4c4dbfe7))
+
+
+
 # [1.2.0](https://github.com/bconnorwhite/eslint-config-bob/compare/v1.1.1...v1.2.0) (2020-10-03)
 
 
