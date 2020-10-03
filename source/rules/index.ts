@@ -96,7 +96,7 @@ const rules: ESLintRules = {
   "no-process-env": "off",
   "no-process-exit": "error",
   "no-restricted-modules": "error",
-  "no-sync": "error",
+  "no-sync": "warn",
   "array-bracket-newline": "off",
   "array-bracket-spacing": "error",
   "array-element-newline": "off",
