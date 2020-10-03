@@ -5,7 +5,10 @@
     <img alt="npm" src="https://img.shields.io/npm/v/eslint-config-bob.svg">
   </a>
   <a href="https://github.com/bconnorwhite/eslint-config-bob">
-    <img alt="typescript" src="https://img.shields.io/badge/TypeScript-%F0%9F%91%8D-blue.svg">
+    <img alt="typescript" src="https://img.shields.io/github/languages/top/bconnorwhite/eslint-config-bob.svg">
+  </a>
+  <a href='https://coveralls.io/github/bconnorwhite/eslint-config-bob?branch=master'>
+    <img alt="Coverage Status" src="https://img.shields.io/coveralls/github/bconnorwhite/eslint-config-bob.svg?branch=master">
   </a>
   <a href="https://github.com/bconnorwhite/eslint-config-bob">
     <img alt="GitHub stars" src="https://img.shields.io/github/stars/bconnorwhite/eslint-config-bob?label=Stars%20Appreciated%21&style=social">
