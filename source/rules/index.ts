@@ -135,6 +135,9 @@ const rules: ESLintRules = {
         },
         while: {
           after: false
+        },
+        catch: {
+          after: false
         }
       }
     }
