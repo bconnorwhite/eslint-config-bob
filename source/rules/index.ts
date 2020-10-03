@@ -138,6 +138,9 @@ const rules: ESLintRules = {
         },
         catch: {
           after: false
+        },
+        throw: {
+          after: false
         }
       }
     }
