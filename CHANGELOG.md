@@ -1,3 +1,12 @@
+## [1.3.1](https://github.com/bconnorwhite/eslint-config-bob/compare/v1.3.0...v1.3.1) (2020-10-13)
+
+
+### Bug Fixes
+
+* set no-restricted-globals ([fcc28ac](https://github.com/bconnorwhite/eslint-config-bob/commit/fcc28acf900bb360e01d075d23327536869e0a7f))
+
+
+
 # [1.3.0](https://github.com/bconnorwhite/eslint-config-bob/compare/v1.2.1...v1.3.0) (2020-10-03)
 
 
