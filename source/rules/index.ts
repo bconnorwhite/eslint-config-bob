@@ -230,7 +230,7 @@ const rules: ESLintRules = {
   "object-shorthand": "error",
   "prefer-arrow-callback": "error",
   "prefer-const": "error",
-  "prefer-destructuring": ["error", {
+  "prefer-destructuring": ["warn", {
     VariableDeclarator: {
       array: false,
       object: true
