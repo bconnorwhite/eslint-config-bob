@@ -1,3 +1,12 @@
+## [1.3.2](https://github.com/bconnorwhite/eslint-config-bob/compare/v1.3.1...v1.3.2) (2020-10-15)
+
+
+### Bug Fixes
+
+* downgrade prefer-destructuring to warn ([a918c9d](https://github.com/bconnorwhite/eslint-config-bob/commit/a918c9d049d9a6f5f6c384029d2a586fcca53d23))
+
+
+
 ## [1.3.1](https://github.com/bconnorwhite/eslint-config-bob/compare/v1.3.0...v1.3.1) (2020-10-13)
 
 
