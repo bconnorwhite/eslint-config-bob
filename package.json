@@ -49,7 +49,7 @@
     "eslint": "^7.9.0"
   },
   "devDependencies": {
-    "@bconnorwhite/bob": "^2.9.0"
+    "@bconnorwhite/bob": "^2.9.2"
   },
   "eslintConfig": {
     "extends": "./build/index.js"
