@@ -202,7 +202,7 @@ const rules: ESLintRules = {
   "prefer-object-spread": "error",
   "quote-props": ["warn", "consistent-as-needed"],
   "quotes": ["warn", "double", { avoidEscape: true }],
-  "semi": "warn",
+  "semi": "off", // handle with @typescript-eslint/semi
   "semi-spacing": "error",
   "semi-style": "error",
   "sort-keys": "off",
