@@ -53,8 +53,8 @@ const config: ESLintConfig = {
     sourceType: "module"
   },
   reportUnusedDisableDirectives: true
-}
+};
 
 export = {
   ...config
-}
+};

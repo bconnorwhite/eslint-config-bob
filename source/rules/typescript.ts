@@ -16,6 +16,6 @@ const rules: ESLintRules = {
     functions: false
   }],
   "@typescript-eslint/semi": "warn"
-}
+};
 
 export default rules;

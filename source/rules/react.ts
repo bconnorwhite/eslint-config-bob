@@ -13,6 +13,6 @@ const rules: ESLintRules = {
     prop: "ignore"
   }],
   "react/prop-types": "off"
-}
+};
 
 export default rules;

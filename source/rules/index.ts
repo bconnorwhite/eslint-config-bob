@@ -6,7 +6,7 @@ import reactRules from "./react";
 export {
   typescriptRules,
   reactRules
-}
+};
 
 const rules: ESLintRules = {
   "no-await-in-loop": "warn",
@@ -240,6 +240,6 @@ const rules: ESLintRules = {
   "symbol-description": "error",
   "template-curly-spacing": "error",
   "yield-star-spacing": "error"
-}
+};
 
 export default rules;
