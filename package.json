@@ -46,10 +46,10 @@
     "types-eslintrc": "^1.0.1"
   },
   "peerDependencies": {
-    "eslint": "^7.9.0"
+    "eslint": "^7.23.0"
   },
   "devDependencies": {
-    "@bconnorwhite/bob": "^2.9.2"
+    "@bconnorwhite/bob": "^2.9.4"
   },
   "eslintConfig": {
     "extends": "./build/index.js"
