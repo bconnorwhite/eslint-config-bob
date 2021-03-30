@@ -1,3 +1,18 @@
+## [1.3.3](https://github.com/bconnorwhite/eslint-config-bob/compare/v1.3.2...v1.3.3) (2021-03-30)
+
+
+### Bug Fixes
+
+* dependency bumps ([97c4fc4](https://github.com/bconnorwhite/eslint-config-bob/commit/97c4fc416f1c4ac9e3ba3c733e6274fb38077145))
+* update rules ([a96f7c4](https://github.com/bconnorwhite/eslint-config-bob/commit/a96f7c4e432ab282073e2c1d926079dbcacebe88))
+
+
+### Reverts
+
+* let @typescript-eslint/semi handle semis ([f83b1ab](https://github.com/bconnorwhite/eslint-config-bob/commit/f83b1ab38d456b87ad77e79d75b8503be31ffe8e))
+
+
+
 ## [1.3.2](https://github.com/bconnorwhite/eslint-config-bob/compare/v1.3.1...v1.3.2) (2020-10-15)
 
 
