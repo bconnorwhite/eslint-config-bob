@@ -166,7 +166,7 @@ const rules: ESLintRules = {
   "new-parens": "error",
   "newline-per-chained-call": ["warn", { ignoreChainWithDepth: 4 }],
   "no-array-constructor": "error",
-  "no-bitwise": "error",
+  "no-bitwise": "off",
   "no-continue": "error",
   "no-inline-comments": "off",
   "no-lonely-if": "error",
@@ -202,7 +202,7 @@ const rules: ESLintRules = {
   "prefer-object-spread": "error",
   "quote-props": ["warn", "consistent-as-needed"],
   "quotes": ["warn", "double", { avoidEscape: true }],
-  "semi": "off",
+  "semi": "warn",
   "semi-spacing": "error",
   "semi-style": "error",
   "sort-keys": "off",
@@ -230,18 +230,7 @@ const rules: ESLintRules = {
   "object-shorthand": "error",
   "prefer-arrow-callback": "error",
   "prefer-const": "error",
-  "prefer-destructuring": ["warn", {
-    VariableDeclarator: {
-      array: false,
-      object: true
-    },
-    AssignmentExpression: {
-      array: false,
-      object: true
-    }
-  }, {
-    enforceForRenamedProperties: false
-  }],
+  "prefer-destructuring": "off",
   "prefer-numeric-literals": "error",
   "prefer-rest-params": "error",
   "prefer-spread": "error",

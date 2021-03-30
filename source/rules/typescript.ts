@@ -14,7 +14,8 @@ const rules: ESLintRules = {
   }],
   "@typescript-eslint/no-use-before-define": ["error", {
     functions: false
-  }]
+  }],
+  "@typescript-eslint/semi": "warn"
 }
 
 export default rules;
