@@ -1,3 +1,12 @@
+## [2.0.1](https://github.com/bconnorwhite/eslint-config-bob/compare/v2.0.0...v2.0.1) (2022-01-25)
+
+
+### Bug Fixes
+
+* turn off react/react-in-jsx-scope ([caf6e39](https://github.com/bconnorwhite/eslint-config-bob/commit/caf6e39ebf1f2368c25300f39228b09e29917593))
+
+
+
 # [2.0.0](https://github.com/bconnorwhite/eslint-config-bob/compare/v1.3.3...v2.0.0) (2022-01-25)
 
 
