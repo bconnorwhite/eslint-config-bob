@@ -12,7 +12,8 @@ const rules: ESLintRules = {
     logical: "ignore",
     prop: "ignore"
   }],
-  "react/prop-types": "off"
+  "react/prop-types": "off",
+  "react/react-in-jsx-scope": "off"
 };
 
 export default rules;
