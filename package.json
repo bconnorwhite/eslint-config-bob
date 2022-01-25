@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-bob",
-  "version": "1.3.3",
+  "version": "2.0.0",
   "description": "ESLint configuration for packages built with @bconnorwhite/bob",
   "license": "MIT",
   "author": {

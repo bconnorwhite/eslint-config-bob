@@ -1,3 +1,17 @@
+# [2.0.0](https://github.com/bconnorwhite/eslint-config-bob/compare/v1.3.3...v2.0.0) (2022-01-25)
+
+
+### Bug Fixes
+
+* bump to eslint 8 ([92c7563](https://github.com/bconnorwhite/eslint-config-bob/commit/92c75630f93bb7cb27d096f764b70a26ddd1ec4d))
+
+
+### BREAKING CHANGES
+
+* eslint 8
+
+
+
 ## [1.3.3](https://github.com/bconnorwhite/eslint-config-bob/compare/v1.3.2...v1.3.3) (2021-03-30)
 
 
